@@ -1,0 +1,44 @@
+
+ body{
+     background-image: url("img/rainyday.jpg");
+     background-color:#00A7E1 ;
+     max-width: width 960px;    
+     text-align: center;
+     /* background-image: '/img/background-blur-clean-clear-531880.jpg'; */
+     background-image: url("img/rainyday.jpg");
+
+     
+
+
+ }
+ 
+ h1{
+     color: #772F14 ;
+     font-size: 3em
+ }
+
+
+ .clicked{
+     background-color: springgreen;
+ }
+
+ .unclicked{
+     background-color: gold ;
+ }
+ .stopwatch{
+     color:black
+ }
+
+ .buttons{
+    font-size: larger;
+    padding: 5px 10px;
+    padding: 10px 15px
+ }
+
+ table{
+    text-align: center;
+    border:1px solid black;
+    margin-left:auto;
+    margin-right:auto;
+    font-size: xx-large;
+ }

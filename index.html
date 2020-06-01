@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="css/style.css">
+    <title>Touch Nums!</title>
+</head>
+
+
+<body onload="init()">
+    <div>
+        <h1>Touch Nums!</h1>
+        <h2>Select board size:</h2>
+        <h3>
+            <button onclick="pickBoard(16)" style="font-size: larger; padding: 10px 15px">Easy 4X4</button>
+            <button onclick="pickBoard(25)" style="font-size: larger; padding: 10px 15px">Medium 5X5</button>
+            <button onclick="pickBoard(36)" style="font-size: larger; padding: 10px 15px">Hard 6X6</button>
+
+        </h3>
+
+        <h1 class="stopwatch">0.00</h1>
+            <table border="1" cellpadding="17">
+
+                <tbody class="board"></tbody>
+            </table>
+    </div>
+
+    <script src="js/main.js"></script>
+</body>
+
+</html>
